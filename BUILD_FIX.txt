@@ -1,8 +1,0 @@
-Possible RTD fix applied:
-- Removed MyST 'linkify' extension from docs/conf.py
-
-Reason:
-- MyST 'linkify' often requires the extra dependency 'linkify-it-py'.
-- On Read the Docs this can produce a generic build failure if not installed.
-
-If the build still fails, open the exact RTD build log and check the last Python exception.
